@@ -22,6 +22,10 @@ h2{
  p{
      padding: .5rem;
  }
+ .container{
+    border-radius: .5rem;
+    overflow: hidden;
+ }
 @media(max-width:520px){
 body{
     width: 100vw;
