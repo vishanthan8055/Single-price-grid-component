@@ -28,11 +28,13 @@ h2{
  }
 @media(max-width:520px){
 body{
-    width: 100vw;
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex;
 }
 
 .container{
-    margin: 20% auto;
+    margin: auto auto;
     display: flex;
     flex-direction: column;
     /* border: 2px solid red; */
