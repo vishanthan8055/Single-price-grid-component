@@ -39,6 +39,7 @@ body{
     flex-direction: column;
     /* border: 2px solid red; */
     width: 23rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .card:nth-child(1){
     background-color: #ffffff;
@@ -98,6 +99,7 @@ body{
     border-radius: .3rem;
     background-color: hsl(71, 73%, 54%);
     color: #f7fce5;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 .c3 p{
     color: #9ff0f1;
@@ -122,6 +124,7 @@ body{
         flex-direction: row;
         flex-wrap: wrap;
         width: 41rem;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
         /* border: 20px solid red; */
     }
     .card:nth-child(1){
@@ -185,6 +188,7 @@ body{
         border-radius: .3rem;
         background-color: hsl(71, 73%, 54%);
         color: #f7fce5;
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     }
     .c3 p{
         color: #9ff0f1;
