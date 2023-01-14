@@ -108,15 +108,19 @@ body{
 }
 @media(min-width:521px){
     body{
+        margin: auto;
         font-size: 15px;
+        /* border: 10px solid red; */
+        height: 100vh;
+        display: flex;
     }
     .container{
-        margin: 13rem auto;
+        margin: auto auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         width: 41rem;
-        /* border: 2px solid red; */
+        /* border: 20px solid red; */
     }
     .card:nth-child(1){
         background-color: #ffffff;
